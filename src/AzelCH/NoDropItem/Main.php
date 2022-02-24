@@ -13,7 +13,6 @@ class Main extends PluginBase implements Listener{
   
   public function onEnable(): void{
     $this->saveResource("config.yml");
-    $this->getLogger()->info("§aPlugin Enabled");
     $this->getServer()->getPluginManager()->registerEvents($this, $this);
   }
   
