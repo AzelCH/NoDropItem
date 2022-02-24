@@ -17,7 +17,7 @@ class Main extends PluginBase implements Listener{
     $this->getServer()->getPluginManager()->registerEvents($this, $this);
   }
   
-  public function onEmote(PlayerDropItemEvent $event){
+  public function onDropItem(PlayerDropItemEvent $event){
     $player = $event->getPlayer();
     if($this->getConfig()->get("enable") === true){
       if($this->getConfig()->get("enable-msg") === true){
