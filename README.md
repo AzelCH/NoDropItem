@@ -1,5 +1,5 @@
 # NoDropItem
-- Player can't drop item in your server
+Protect your server from people who like to drop random items
 
 # CONFIG
 ```
